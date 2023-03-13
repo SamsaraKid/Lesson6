@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    color: lightgray;
+    background-color: black;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: background-color 3s ease, font-size 1s ease;
+
+}
+
+a:hover{
+    background-color: crimson;
+    box-shadow: 5px 5px 3px lawngreen;
+    text-shadow: -5px 5px 3px darkcyan;
+    font-size: 40px;
+}
+
+img{
+    transition: 2s ease-in;
+}
+
+img:hover{
+    transform: rotate(360deg) translateX(200px);
+}
